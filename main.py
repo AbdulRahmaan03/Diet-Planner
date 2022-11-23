@@ -240,5 +240,6 @@ def count_calories(ideal_calories, desired_calories, food, weight, height, call_
 
 
 # waitress.serve(app.server, listen="*:1234")
-if __name__ == '__main__':
-    app.run_server(debug=True)
+# if __name__ == '__main__':
+#     app.run_server(debug=True)
+server = app.server
