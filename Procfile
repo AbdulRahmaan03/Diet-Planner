@@ -1,2 +1,2 @@
-web: python main : server
+web: python main.py
 

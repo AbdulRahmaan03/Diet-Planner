@@ -239,4 +239,6 @@ def count_calories(ideal_calories, desired_calories, food, weight, height, call_
         raise PreventUpdate
 
 
-waitress.serve(app.server, listen="*:1234")
+# waitress.serve(app.server, listen="*:1234")
+if __name__ == '__main__':
+    app.run_server(debug=True)
