@@ -1,1 +1,2 @@
-web: gunicorn --bind :$PORT python main.py
+web: gunicorn --bind :$PORT python main.py : server
+
