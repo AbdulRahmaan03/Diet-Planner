@@ -2,9 +2,9 @@
 	What is it 
 	Why did we build this application
 ### API Used
-- We have used the [Nutritionix API](https://www.nutritionix.com/business/api) blah blah
-### Python Frameworks Implemented
-- [DASH](https://dash.plotly.com/introduction) blah blah 
+- We have used the [Nutritionix API](https://www.nutritionix.com/database) that has more than 1M food items to give users a variety of options to form their daily diet plan.
+### Python Frameworks
+- [DASH](https://dash.plotly.com/introduction) is implemented for the UI/UX design of the application.
 ### User Guide
 - Health Report
   - Select your gender and age range.
