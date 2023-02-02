@@ -5,7 +5,8 @@
 ### API Used
 - We have used the [Nutritionix API](https://www.nutritionix.com/database) that has more than 1M food items to give users a variety of options to form their daily diet plan.
 ### Python Frameworks
-- [DASH](https://dash.plotly.com/introduction) is implemented for the UI/UX design of the application.
+- [DASH](https://dash.plotly.com/introduction) is implemented for the UI/UX design of the application. 
+- ![](https://img.shields.io/badge/Dash-blue?style=for-the-badge&logo=Dash&logoColor=white) ![](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white) ![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ### User Guide
 - Health Report
   - Select your gender and age range.
