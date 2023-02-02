@@ -24,8 +24,8 @@
 ![image](https://user-images.githubusercontent.com/100038013/216224034-5a435754-ffcf-4f6b-b986-2a477857f375.png)
 
 ### Team
-- [Abdul Rahmaan](https://github.com/AbdulRahmaan03)
 - [Sstuti](https://www.github.com/sstuti)
+- [Abdul Rahmaan](https://github.com/AbdulRahmaan03)
 
 > [YT Video](https://www.youtube.com/watch?v=yLLdIU5rovU)
 > [Medium Article](https://medium.com/@f20200034_26949/daily-calorie-consumption-tracker-using-nutritionix-api-7600f5e1c80b)
