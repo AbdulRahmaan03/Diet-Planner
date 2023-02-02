@@ -28,7 +28,7 @@
 
 ### Team
 - [Sstuti D Mehra](https://www.github.com/sstuti)
-- [Abdul Rahmaan](https://github.com/AbdulRahmaan03)
+- [Abdul Rahmaan Ansari](https://github.com/AbdulRahmaan03)
 
 > [Medium Article](https://medium.com/@f20200034_26949/daily-calorie-consumption-tracker-using-nutritionix-api-7600f5e1c80b)
 
