@@ -2,7 +2,7 @@
 - Today people are concious of their food intake, health and general well-being. With our application users can plan their daily meals and keep track of how many calories they are consuming, in accordance with their health status.
 ### BITS Pilani Postman API Hackathon 2.0
 - An all-India virtual hackathon wherein students create full-stack applications to solve real-world problems using APIs.
-- Our team placed in the Top 15 teams among 1300 teams for developing this application
+- Our team placed among the Top 15 teams among 1300 teams for developing this application
 ### API Used
 - We have used the [Nutritionix API](https://www.nutritionix.com/database) that has more than 1M food items to give users a variety of options to form their daily diet plan.
 ### Python Frameworks
