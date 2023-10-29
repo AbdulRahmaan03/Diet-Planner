@@ -11,24 +11,24 @@ from dash.exceptions import PreventUpdate
 total_calories = 0
 list_msg= 'Your Food List\n'
 def get_food(food):
-    requested_url = 'https://api.nutritionix.com/v1_1/search'
-    API_KEY = '2d1da0c85fa38c516ac20a7094f22265'
+    requested_url = f'https://trackapi.nutritionix.com/v2/search/instant?query={food}'
+    API_KEY = '7f4b3713562391724bd2b4be681f55fe'
     APP_ID = 'bf990bc9'
     headers = {'Content-Type': 'application/json',
                "x-app-id": APP_ID,
                "x-app-key": API_KEY
                }
     parameters = {"fields": ["item_name", "item_id", "nf_calories"], "query": food}
-    response = requests.post(requested_url, headers=headers, json=parameters)
+    response = requests.get(requested_url, headers=headers, json=parameters)
     response.raise_for_status()
     parsed = json.loads(response.text)
     response.close()
-    x = len(parsed['hits'])
+    x = len(parsed['branded'])
 
     item_name_with_calories = {}
     for i in range(0, x):
-        key = parsed['hits'][i]['fields']['item_name']
-        value = parsed['hits'][i]['fields']['nf_calories']
+        key = parsed['branded'][i]['food_name']
+        value = parsed['branded'][i]['nf_calories']
         item_name_with_calories.update({key: value})
 
     return item_name_with_calories
@@ -263,7 +263,7 @@ def count_calories(ideal_calories, desired_calories, food, weight, height, call_
         raise PreventUpdate
 
 
-# waitress.serve(app.server, listen="*:1234")
+waitress.serve(app.server, listen="*:1234")
 server = app.server
 
 
