@@ -12,8 +12,8 @@ total_calories = 0
 list_msg= 'Your Food List\n'
 def get_food(food):
     requested_url = f'https://trackapi.nutritionix.com/v2/search/instant?query={food}'
-    API_KEY = '7f4b3713562391724bd2b4be681f55fe'
-    APP_ID = 'bf990bc9'
+    API_KEY = ''
+    APP_ID = ''
     headers = {'Content-Type': 'application/json',
                "x-app-id": APP_ID,
                "x-app-key": API_KEY
